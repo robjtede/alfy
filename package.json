@@ -3,7 +3,7 @@
 	"version": "0.7.0",
 	"description": "Create Alfred workflows with ease",
 	"license": "MIT",
-	"repository": "sindresorhus/alfy",
+	"repository": "robjtede/alfy",
 	"author": {
 		"name": "Sindre Sorhus",
 		"email": "sindresorhus@gmail.com",
@@ -48,9 +48,9 @@
 	"dependencies": {
 		"alfred-link": "^0.2.0",
 		"alfred-notifier": "^0.2.0",
-		"@robjtede/cache-conf": "^0.6.0",
+		"@robjtede/cache-conf": "^0.6.1",
 		"clean-stack": "^1.0.0",
-		"@robjtede/conf": "^1.1.2",
+		"@robjtede/conf": "^1.4.1",
 		"dot-prop": "^4.0.0",
 		"execa": "^0.8.0",
 		"got": "^8.0.1",
