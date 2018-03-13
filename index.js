@@ -1,13 +1,13 @@
 'use strict';
 /* eslint-disable dot-notation */
 const os = require('os');
-const Conf = require('conf');
+const Conf = require('@robjtede/conf');
 const got = require('got');
 const hookStd = require('hook-std');
 const loudRejection = require('loud-rejection');
 const cleanStack = require('clean-stack');
 const dotProp = require('dot-prop');
-const CacheConf = require('cache-conf');
+const CacheConf = require('@robjtede/cache-conf');
 const updateNotification = require('./lib/update-notification');
 
 const alfy = module.exports;
@@ -97,13 +97,15 @@ ${process.platform} ${process.arch} ${os.release()}
 };
 
 alfy.config = new Conf({
-	cwd: alfy.alfred.data
+	cwd: alfy.alfred.data,
+	name: 'alfy'
 });
 
 alfy.cache = new CacheConf({
 	configName: 'cache',
 	cwd: alfy.alfred.cache,
-	version: alfy.meta.version
+	version: alfy.meta.version,
+	name: 'alfy'
 });
 
 alfy.fetch = (url, opts) => {
