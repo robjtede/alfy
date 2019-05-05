@@ -1,4 +1,4 @@
-# ![Alfy](https://cdn.rawgit.com/sindresorhus/alfy/4b50f0323dd99eafdd34523dc8de0680be04e049/media/header.svg)
+# ![Alfy](media/header.svg)
 
 > Create [Alfred workflows](https://www.alfredapp.com/workflows/) with ease
 
@@ -20,7 +20,7 @@
 
 ## Prerequisites
 
-You need [Node.js 4+](https://nodejs.org) and [Alfred 3](https://www.alfredapp.com) with the paid [Powerpack](https://www.alfredapp.com/powerpack/) upgrade.
+You need [Node.js 8+](https://nodejs.org) and [Alfred 3](https://www.alfredapp.com) with the paid [Powerpack](https://www.alfredapp.com/powerpack/) upgrade.
 
 
 ## Install
@@ -529,6 +529,7 @@ Non-synced local preferences are stored within `Alfred.alfredpreferences` under 
 - [alfred-keycode](https://github.com/radibit/alfred-keycode) - Get JavaScript keycodes
 - [alfred-vue](https://github.com/radibit/alfred-vue) - Search the Vue.js API docs
 - [alfred-meteor-docs](https://github.com/wolasss/alfred-meteor-docs) - Search the Meteor docs
+- [alfred-meteor-packages](https://github.com/sasikanth513/alfred-meteor-packages) - Meteor package search
 - [alfred-climbing-grades-converter](https://github.com/wolasss/alfred-climbing-grades-converter) - Convert between climbing grading systems
 - [alfred-hotel](https://github.com/exah/alfred-hotel) - Quickly start, stop and open [Hotel](https://github.com/typicode/hotel) apps
 - [alfred-coolors](https://github.com/radibit/alfred-coolors) - Find relevant color names
@@ -547,6 +548,20 @@ Non-synced local preferences are stored within `Alfred.alfredpreferences` under 
 - [alfred-chuck-norris-jokes](https://github.com/jeppestaerk/alfred-chuck-norris-jokes) - Get Chuck Norris jokes
 - [alfred-show-network-info](https://github.com/jeppestaerk/alfred-show-network-info) - See network info and discover local devices
 - [alfred-currency-conversion](https://github.com/jeppestaerk/alfred-currency-conversion) - See foreign exchange rates and currency conversion
+- [alfred-reference](https://github.com/vinkla/alfred-reference) - Search for HTML elements and CSS properties
+- [alfred-polyglot](https://github.com/nikersify/alfred-polyglot) - Translate text with Google Translate
+- [alfred-stock-price](https://github.com/Wei-Xia/alfred-stock-price-workflow) - Show real time stock price in US market
+- [alfred-jira](https://github.com/colinf/alfred-jira) - Convert clipboard text between Markdown and Jira markup
+- [alfred-homebrew](https://github.com/vinkla/alfred-homebrew) - Search for macOS packages with Homebrew
+- [alfred-network-location-switch](https://github.com/abdul/alfred-network-location-switch) - Switch macOS network location
+- [alfred-cool](https://github.com/nguyenvanduocit/alfred-cool) - Find cool words
+- [alfred-google-books](https://github.com/Dameck/alfred-google-books) - Search for Google Books
+- [alfred-ip](https://github.com/calpa/alfy-ip) - Find your public IP
+- [alfred-figma](https://github.com/jonrohan/alfred-figma) – Quick links and search Figma teams, projects and files
+- [alfred-flutter-docs](https://github.com/Sh1d0w/alfred-flutter-docs) – Quickly search and preview Flutter docs
+- [alfred-title](https://github.com/Kikobeats/alfred-title) – Capitalize your titles
+- [alfred-trello](https://github.com/mblode/alfred-trello) - Search your boards, quickly add cards, and view list of cards for Trello
+- [alfred-npm-versions](https://github.com/mrmartineau/alfred-npm-versions) - Lookup the latest 15 versions for an npm package
 
 
 ## Related
