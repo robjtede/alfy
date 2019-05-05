@@ -1,6 +1,6 @@
 {
 	"name": "@robjtede/alfy",
-	"version": "0.7.1",
+	"version": "0.8.0",
 	"description": "Create Alfred workflows with ease",
 	"license": "MIT",
 	"repository": "robjtede/alfy",
